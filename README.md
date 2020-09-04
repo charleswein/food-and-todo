@@ -1,4 +1,4 @@
 # javascript_practice
-https://charleswein.github.io/javascript_practice/tree/todo
+https://charleswein.github.io/javascript_practice/
 
 
