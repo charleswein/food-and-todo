@@ -1,0 +1,19 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fakeDB": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "webpack": "^4.44.1"
+  }
+}
