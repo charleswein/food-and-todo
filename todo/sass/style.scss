@@ -1,0 +1,100 @@
+@import "mixin";
+
+.container-fluid {
+ @include flexibleBlock(flex-start, center, column, nowrap);
+ background: url("../img/clocks1.jpg") no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100vh;
+}
+
+.next-foto {
+ background: url("../img/clocks2.jpg") no-repeat;
+ background-size: cover;
+ background-position: center center;
+}
+
+.header__title {
+ @include flexibleText(40px, 400, 1em, #f90b6d, capitalize);
+ word-spacing: 1rem;
+ padding: 50px 0 0 0;
+ margin: 0 0 20px 0;
+}
+
+.form__label {
+ @include flexibleText(20px, 400, 1em, #f90b6d, capitalize);
+}
+
+.form-control,
+.form-control-lg,
+.form-control:focus {
+ color: #f90b6d;
+}
+
+.form__input {
+ &::placeholder {
+  @include flexibleText(15px, 300, 1.5em, #f90b6d, normal);
+ }
+}
+
+.fa {
+ color: #f90b6d;
+}
+
+.drop-list {
+ display: none;
+ justify-content: center;
+}
+
+ul {
+ position: relative;
+}
+
+.list__item {
+ @include flexibleBlock(space-between, center, row, nowrap);
+}
+
+.list__button {
+ background-color: red;
+}
+
+.text {
+ position: relative;
+ margin: 0px 40px;
+}
+
+.text--active:before {
+ content: '';
+ position: absolute;
+ width: 0%;
+ height: 3px;
+ background: #f90b6d;
+ left: 3%;
+ top: 49%;
+}
+
+.text--active:before {
+ animation: in 0.9s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+
+@keyframes in {
+ 0% {
+  width: 0%;
+ }
+
+ 100% {
+  width: 94%;
+ }
+}
+
+@keyframes show {
+ 20% {
+  opacity: 0;
+  transform: translateY(-10px);
+ }
+
+ 80% {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
