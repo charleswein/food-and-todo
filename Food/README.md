@@ -1,2 +1,2 @@
-#javascript_practice
-https://charleswein.github.io/javascript_practice/food-js-part/
+# javascript_practice
+https://charleswein.github.io/javascript_practice/Food/
