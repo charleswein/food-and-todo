@@ -1,4 +1,6 @@
-# javascript_practice
-https://charleswein.github.io/javascript_practice/Food/ 
-# 
-https://charleswein.github.io/javascript_practice/todo/
+# Site Practice Native Js
+
+## [Food](https://charleswein.github.io/javascript_practice/Food/)
+
+## [ToDo](https://charleswein.github.io/javascript_practice/todo/)
+
